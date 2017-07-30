@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:background="@drawable/background1"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <Button
+
+        android:text="Quản lý sinh viên"
+        android:paddingBottom="20dp"
+        android:paddingTop="20dp"
+        android:textColor="@android:color/white"
+
+        android:textSize="30sp"
+        android:background="#dc4d5058"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+
+        android:padding="5dp"
+        android:layout_marginTop="150dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+
+            android:text="Thêm lớp"
+            android:textSize="20sp"
+            android:textColor="#ffff"
+            android:background="@drawable/btnmenu"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <Button
+            android:text="Xem danh sách lớp"
+            android:textSize="20sp"
+            android:textColor="#ffff"
+            android:background="@drawable/btnmenu"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+        <Button
+            android:text="Quản lý sinh viên"
+            android:background="@drawable/btnmenu"
+            android:textSize="20sp"
+            android:textColor="#ffff"
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+</LinearLayout>
